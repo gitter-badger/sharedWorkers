@@ -1,0 +1,65 @@
+/*template start*/
+ul, ul a {
+   text-decoration: none;
+   color: #e1f5fe;
+   margin: 0;
+}
+
+ul a:hover {
+   color: #01579b;
+}
+
+ul a:VISITED {
+   color: grey;
+}
+
+ul a:FOCUS {
+   color: grey;
+}
+
+li {
+   display: inline;
+}
+
+li a:hover {
+   text-decoration: none;
+}
+
+body {
+   background-color: #e1f5fe;
+   color: #01579b;
+}
+
+
+#message {
+  margin-bottom: 20px;
+}
+
+.jumbotron, .navbar, .navbar li a, .navbar .navbar-brand, .navbar .nav li a, .footer {
+   background-color:  #03a9f4;
+   color: #e1f5fe;
+   border: none;
+   letter-spacing: 4px;
+}
+
+.footer {
+   margin-top: 100px;
+}
+/*template end*/
+
+.btn  {
+	width: 100%;
+	transition: background-color 1s ease;
+	display: block;
+	margin-bottom: 1px;
+}
+
+#info {
+   overflow-y: auto;
+   max-height:200px;
+   margin-bottom:0px;
+}
+
+.badge {
+   float: right;
+}
