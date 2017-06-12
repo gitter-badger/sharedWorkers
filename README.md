@@ -1,5 +1,5 @@
 # Shared Worker
-To see a working result please go directly to: https://antigone2.github.io/sharedWorkers
+To see a working result please go directly to: https://antigone2.github.io/sharedWorkers/
 
 In this example I would like to demonstrate, how to **share state**  between different pages, or opened windows.
 
