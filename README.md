@@ -6,11 +6,11 @@ In this example I would like to demonstrate, how to **share state**  between dif
 In the moment the page is optimized only for Firefox web browser.
 
 ## Description
-I have created a Shared Worker which do nothing but counts - after 0.5s ads 1.
+I have created a Shared Worker which does nothing but counts - after 0.5s ads 1.
 
 I have created two web pages to demonstrate, that you can share state after going from one to another, or open new window.
 
-If you stop/start worker in any window, or on any page, the counting stopes everywhere.
+If you stop/start worker in any window, or on any page, the counting stops everywhere.
 
 ## Resources
 * [W3S](https://w3c.github.io/workers/#examples-3)
