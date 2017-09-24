@@ -15,16 +15,15 @@ var myWorker = new SharedWorker("js/worker.js");
 //very fucking important
 myWorker.port.start();
 
-
 myWorker.port.onmessage = function (e) {
    out = e.data.mess1[1];
    if (out != undefined) {
       console.info(e.data.mess1.join(' ')+' '+e.data.mess2.join(' '));
       count++;
       $('#info').prepend('<li class="list-group-item" style="background-color:'+ colors[count % colors.length]+';"><strong class="list-group-item-heading">'+e.data.mess1[0] +' <span class="badge">'+e.data.mess1[1]+'</span></strong><p class="list-group-item-text">'+e.data.mess2[0] + ' <span class="badge">'+e.data.mess2[1]+'</span></p><p class="list-group-item-text">'+e.data.mess3+'</p></li>');
-   }   
-   
-   
+   }
+
+
 };
 
 myWorker.port.onerror = function (e) {

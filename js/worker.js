@@ -1,7 +1,7 @@
 /*variables*/
 let count = 0, id, id2;
 /*constatnts*/
-const cache = new Set(), CO = 'Count', CON = 'Established cpnnections';
+const cache = new Set(), CO = 'Count', CON = 'Established connections';
 
 function start() {
    id = setInterval(function () {
